@@ -1,12 +1,16 @@
 package io.github.seujorgenochurras;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Future;
-
 public class Main {
-   public static void main(String[] args) {
-      Future<String> future = new CompletableFuture<>();
+   public static void main(String[] args) throws InterruptedException {
+      var ddosTest = new DdosTest();
+      ddosTest.stressRandomCepApi(10, 10000);
+      ddosTest.exterminateTheFuture();
 
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
       System.out.println("Hello world!");
    }
 }
