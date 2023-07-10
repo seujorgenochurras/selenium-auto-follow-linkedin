@@ -1,12 +1,12 @@
 package io.github.seujorgenochurras;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Future;
-
 public class Main {
-   public static void main(String[] args) {
-      Future<String> future = new CompletableFuture<>();
-
+   public static void main(String[] args) throws InterruptedException {
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
+      System.out.println("Hello world!");
       System.out.println("Hello world!");
    }
 }
