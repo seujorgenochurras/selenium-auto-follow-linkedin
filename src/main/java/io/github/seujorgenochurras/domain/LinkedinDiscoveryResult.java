@@ -7,9 +7,9 @@ import io.github.seujorgenochurras.adapter.LinkedinDiscoveryResultAdapter;
 import java.util.ArrayList;
 
 public class LinkedinDiscoveryResult {
-   @SerializedName("*elements")
+   @SerializedName(value = "*elements", alternate = "data")
    @JsonAdapter(LinkedinDiscoveryResultAdapter.class)
-   private ArrayList<LinkedinPerson> linkedinPeople = new ArrayList<>();
+   private ArrayList<LinkedinPerson> linkedinPeople;
 
    public ArrayList<LinkedinPerson> getLinkedinPeople() {
       return linkedinPeople;

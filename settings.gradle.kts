@@ -1,2 +1,2 @@
-rootProject.name = "selenium-auto-follow-linkedin"
+rootProject.name = "auto-follow-linkedin"
 
