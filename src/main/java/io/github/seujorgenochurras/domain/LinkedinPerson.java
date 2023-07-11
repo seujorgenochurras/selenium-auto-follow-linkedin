@@ -19,4 +19,9 @@ public class LinkedinPerson {
 
    public LinkedinPerson() {
    }
+
+   @Override
+   public String toString() {
+      return uuid + '\n';
+   }
 }
